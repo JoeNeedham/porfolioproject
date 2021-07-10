@@ -1,0 +1,145 @@
+* {
+	padding: 0;
+	margin: 0;
+	}
+* { outline: 1px dotted red; }
+
+#wrapper {
+    height: 938px;
+    width: 960px;
+    background-color: rgba(83, 37, 37, 0.774);
+    /* display: flex; */
+}
+#header {
+    width: 960px;
+    height: 45px;
+    background-color: rgb(235, 229, 229);
+    display: flex;
+}
+h1 { 
+    flex: 1;
+    margin: 5px;
+    margin-left: 10px;
+}
+.headertext {
+    margin: 5px;
+    text-align: right;
+    flex: 2;
+    margin-right: 10px;
+}
+.jayneimage {
+    width: 400px;
+    height: 250px;
+    margin: 15px;
+    margin-bottom: 5px;
+    border: 5px solid rgb(255, 253, 253);
+    display: inline-block;
+}
+#about {
+    width: 475px;
+    height: 260px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 15px;
+    background-color: white;
+}
+
+.banner {
+    width: 475px;
+    height: 40px;
+    background-color: rgb(172, 172, 172);
+    
+}
+
+.bannertext {
+    color: white; 
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+.bodytext {
+    margin-left: 5px;
+    padding: 5px;
+}
+
+a {
+    color: black;
+}
+
+.bannercolumn {
+    display: inline-block;
+    width: 295px;
+    height: 500px;
+    margin-left: 15px;
+    margin-top: 5px;
+    vertical-align: top;
+    background-color: white;
+}
+
+.banner2 {
+    width: 295px;
+    height: 35px;
+    background-color: rgb(172, 172, 172);
+    display: inline-block;
+}
+
+.bannerimage1 {
+    height: 150px;
+    width: 295px;
+}
+
+.banner3 {
+    margin-top: 20px;
+    background-color: rgb(172, 172, 172);
+}
+.bannertext3 {
+    color: white; 
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 1em;
+}
+
+.stickers {
+    height: 42px;
+    width: 42px;
+    margin: 5px;
+    display: inline-block;
+}
+.greenbutton {
+    text-align: center;
+    font-size: .9em;
+    color: white;
+}
+.greenbuttonbackground {
+    background-color: rgb(11, 97, 11);
+    border-radius: 10px;
+    padding: 4px;
+}
+.footer{
+    height: 75px;
+    width: 960px;
+    background-color: white;
+    margin-top: 25px;
+}
+.footertext {
+    text-align: center;
+    padding: 5px;
+}
+.socialmedia {
+    width: 25px;
+    height: 25px;
+    /* display: block; */
+    /* margin: auto; */
+    /* width: auto; */
+    margin-left: 300px;
+}
+.socialmediahandle {
+    display: inline-block;
+    vertical-align: 5px;
+}
+.socialmedia2 {
+    width: 25px;
+    height: 25px;
+}
+/* Hello */
